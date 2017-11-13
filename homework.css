@@ -1,0 +1,26 @@
+body{
+    background-color: #f9fafc;
+}
+
+.relative{
+    position: relative;
+}
+
+#name{
+    width: 120px;
+    height: 22px;
+    left: 40px;
+    top: 10px;
+    font-family: "幼圆";
+    font-size: large;
+    font-weight: 900;
+    border-left: 5px solid #60a1fb;
+    padding-left: 8px;
+}
+#myChart{
+    width: 1200px;
+    height: 550px;
+    margin: 30px auto;
+    border: 1px solid #eff3f6;
+    background-color: #ffffff;
+}
