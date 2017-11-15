@@ -2,24 +2,38 @@ body{
     background-color: #f9fafc;
 }
 
-.relative{
+#blue{
+    width: 5px;
+    height: 15px;
+    top: 30px;
+    float: left;
+    margin: 0 auto;
+    background: url("../Test/blue.png") no-repeat;
     position: relative;
+    left: 5%;
 }
 #name{
     width: 120px;
     height: 22px;
-    left: 75px;
-    top: 10px;
+    top: 28px;
+    margin: 0 auto;
+    float: left;
+    left: 5%;
+    position: relative;
     font-family: "幼圆";
     font-size: large;
-    font-weight: 900;
-    border-left: 5px solid #60a1fb;
+    font-weight: 900
+    //border-left: 5px solid #60a1fb;
     padding-left: 8px;
 }
 #myChart{
     width: 1200px;
     height: 550px;
-    margin: 30px auto;
+    top: 60px;
+    float: inherit;
+    margin: 0 auto;
     border: 1px solid #eff3f6;
     background-color: #ffffff;
+
+
 }
