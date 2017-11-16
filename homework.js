@@ -3,9 +3,10 @@ console.dir(echarts)
 window.onload =  function () {
     var id = document.getElementById('myChart')
     var myChart = echarts.init(document.getElementById('myChart'));
+    var colors = ['#5793f3', '#d14a61', '#675bba'];
     var options = {
         title: {
-            //text: 'ECharts 入门示例'
+
         },
         tooltip: {},
         legend: {
@@ -13,14 +14,15 @@ window.onload =  function () {
             left: '5%'
         },
         xAxis: {
-            data: ["衬衫", "羊毛衫", "雪纺衫", "裤子", "高跟鞋", "袜子"]
-
+            data: ["20171110","20171111","20171112","20171113","20171114","20171115","20171116"],
+            nameLocation: 'end',
         },
         yAxis: {},
         series: [{
             name: '单日实收金额',
             type: 'line',
-            data: [5, 20, 36, 10, 10, 20]
+            data: [200, 240, 360, 410, 310, 820,760],
+            smooth: true,
         }]
     };
 
