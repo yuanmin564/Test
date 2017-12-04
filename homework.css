@@ -1,39 +1,75 @@
-body{
+
+#chartBox{
+    width: 1200px;
+    height: 580px;
+    margin: 3%;
+    border: 1px solid #eff3f6;
     background-color: #f9fafc;
 }
-
 #blue{
-    width: 5px;
-    height: 15px;
-    top: 30px;
+    width: 4px;
+    height: 20px;
+    top: 5%;
     float: left;
     margin: 0 auto;
     background: url("../Test/blue.png") no-repeat;
     position: relative;
-    left: 5%;
+    left: 6%;
 }
 #name{
     width: 120px;
     height: 22px;
-    top: 28px;
+    top: 5%;
     margin: 0 auto;
     float: left;
-    left: 5%;
+    left: 6%;
     position: relative;
     font-family: "幼圆";
     font-size: large;
-    font-weight: 900
+    font-weight: 900;
     //border-left: 5px solid #60a1fb;
     padding-left: 8px;
 }
-#myChart{
-    width: 1200px;
-    height: 550px;
-    top: 60px;
-    float: inherit;
+#yesterday{
+    top: 5%;
+    right: 400px;
+    float: right;
     margin: 0 auto;
-    border: 1px solid #eff3f6;
-    background-color: #ffffff;
-
+    position: relative;
 
 }
+#week{
+    top: 5%;
+    right: 320px;
+    float: right;
+    margin: 0 auto;
+    position: relative;
+}
+#month{
+    top: 5%;
+    right: 220px;
+    float: right;
+    margin: 0 auto;
+    position: relative;
+}
+#anyDays{
+    width: 190px;
+    height: 40px;
+    float: right;
+    left: 40px;
+    top: 25px;
+    background: url("../Test/anyDays1.jpg") no-repeat;
+    position: relative;
+}
+#myChart{
+    width: 1060px;
+    height: 450px;
+    top: 12%;
+    margin: 0 auto;
+    border: 1px solid #eff3f6;
+    //float: left;
+    //position: relative;
+}
+
+
+
