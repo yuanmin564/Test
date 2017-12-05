@@ -1,74 +1,108 @@
+#homework{
+    width: 1000px;
+    height: 546px;
+    position: absolute;
+    background: #f9fafc;
 
-#chartBox{
-    width: 1200px;
-    height: 580px;
-    margin: 3%;
-    border: 1px solid #eff3f6;
-    background-color: #f9fafc;
 }
+
+/* 表格说明文字 */
 #blue{
-    width: 4px;
-    height: 20px;
-    top: 5%;
-    float: left;
-    margin: 0 auto;
-    background: url("../Test/blue.png") no-repeat;
-    position: relative;
-    left: 6%;
-}
-#name{
+     width: 4px;
+     height: 20px;
+     top: 12px;
+     left: 24px;
+     position: absolute;
+     float: left;
+     margin: 0 auto;
+     background: url("../Test/blue.png") no-repeat;
+
+ }
+#chartName{
     width: 120px;
     height: 22px;
-    top: 5%;
+    top: 12px;
+    left: 26px;
+    position: absolute;
     margin: 0 auto;
     float: left;
-    left: 6%;
-    position: relative;
     font-family: "幼圆";
     font-size: large;
     font-weight: 900;
     //border-left: 5px solid #60a1fb;
     padding-left: 8px;
 }
+
+/* 表格内容 */
+#chartBox{
+    width: 924px;
+    height: 456px;
+    position: relative;
+    float: left;
+    top: 45px;
+    left: 38px;
+    border: 1px solid #eff3f6;
+    background-color: #fff;
+}
+
+/* 表格内容选择文字 */
+#greenButton{
+    width: 30px;
+    height: 12px;
+    top: 30px;
+    float: left;
+    margin-left: 32px;
+    position: relative;
+    background: url("../Test/greenButton.jpg") no-repeat;
+}
+#buttonText{
+    top: 26px;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    font-family: '幼圆';
+    font-weight: 500;
+}
 #yesterday{
-    top: 5%;
-    right: 400px;
+    top: 24px;
+    right: 380px;
     float: right;
     margin: 0 auto;
     position: relative;
-
 }
 #week{
-    top: 5%;
-    right: 320px;
+    top: 24px;
+    right: 300px;
     float: right;
     margin: 0 auto;
     position: relative;
 }
 #month{
-    top: 5%;
-    right: 220px;
+    top: 24px;
+    right: 200px;
     float: right;
     margin: 0 auto;
     position: relative;
 }
 #anyDays{
     width: 190px;
-    height: 40px;
+    height: 30px;
     float: right;
-    left: 40px;
-    top: 25px;
+    left: 66px;
+    top: 22px;
     background: url("../Test/anyDays1.jpg") no-repeat;
     position: relative;
 }
+
+/* 图表 */
 #myChart{
-    width: 1060px;
-    height: 450px;
-    top: 12%;
-    margin: 0 auto;
-    border: 1px solid #eff3f6;
-    //float: left;
-    //position: relative;
+    width: 900px;
+    height: 350px;
+    top: 38px;
+    left: 10px;
+    margin: center center;
+    //border: 1px solid #eff3f6;
+
 }
 
 

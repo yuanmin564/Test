@@ -7,9 +7,16 @@ window.onload =  function () {
     var options = {
         title: {},
         tooltip: {},
-        legend: {
-            data: ['单日实收金额'],
-            left: '5%'
+        //legend: {
+            //data: ['单日实收金额'],
+            //left: '5%'
+       // },
+        grid: {
+            top: '2%',
+            bottom: '5%',
+            right: '3%',
+            left: '3%',
+            containLabel: true,
         },
         xAxis: {
             data: ["20171110", "20171111", "20171112", "20171113", "20171114", "20171115", "20171116"],
