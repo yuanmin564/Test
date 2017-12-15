@@ -110,8 +110,25 @@
     margin-right: 30px;
     float: right;
     vertical-align: middle;
-    background: url("../Test/anyDays1.jpg") no-repeat;
+    border: 1px solid #C2CAD7;
+    border-radius: 5px;
+
+
+    //background: url("../Test/anyDays1.jpg") no-repeat;
     //position: relative;
+}
+#dateSelect{
+    width: 160px;
+    height: 30px;
+    font-family: "幼圆";
+    font-size: 14px;
+    margin: 5px 10px;
+    vertical-align: middle;
+}
+#anyDays1{
+    width: ;
+    height: ;
+    float: right;
 }
 
 /* 图表 */
