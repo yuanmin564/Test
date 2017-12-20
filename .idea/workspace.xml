@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e5713c8-29d9-444a-96b5-989afad82885" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/greenButton.jpg" afterPath="$PROJECT_DIR$/img/greenButton.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/homework.css" afterPath="$PROJECT_DIR$/css/homework.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homework.html" afterPath="$PROJECT_DIR$/homework.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="homework.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homework.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homework.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -29,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homework.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homework.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/homework.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="425">
+              <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -79,7 +76,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="376" />
     <option name="y" value="29" />
     <option name="width" value="922" />
@@ -166,15 +163,15 @@
       <workItem from="1512355050564" duration="26042000" />
       <workItem from="1512625283437" duration="760000" />
       <workItem from="1513048351308" duration="23721000" />
-      <workItem from="1513595807164" duration="12116000" />
+      <workItem from="1513595807164" duration="12393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84211000" />
+    <option name="totallyTimeSpent" value="84488000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13103953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -393,18 +390,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/homework.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homework.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="21" column="59" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/homework.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="122" column="9" lean-forward="true" selection-start-line="122" selection-start-column="9" selection-end-line="122" selection-end-column="9" />
           <folding />
         </state>
       </provider>
